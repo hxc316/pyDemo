@@ -24,5 +24,5 @@ for m in pro:
     for c in range(10):
         r.sadd("citys"+str(m),i*10+c)
 
-print("citys = ",r.smembers('citys0'))
+print("citys = ",r.smembers('citys1'))
 print("citys0里面有15这个城市么? " , r.sismember('citys0',9))
