@@ -10,6 +10,9 @@ def hello_world():
     file.close();
     return 'Hello World!  ... ' + content
 
+@app.route('/name')
+def hello_name():
+    return 'hello name'
 
 if __name__ == '__main__':
     app.run()

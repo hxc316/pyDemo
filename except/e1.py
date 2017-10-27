@@ -1,4 +1,6 @@
 
+
+
 def e1():
     try:
         print(2/0)
